@@ -4,6 +4,12 @@
   "main": "index.js",
   "repository": "git@github.com:MaccKOT/webpack-training.git",
   "author": "MaccKOT <51321216+MaccKOT@users.noreply.github.com>",
+  "scripts": {
+    "build": "webpack --config=webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.44.1",
