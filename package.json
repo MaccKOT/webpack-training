@@ -8,7 +8,7 @@
     "build": "webpack --config=webpack.config.js",
     "build-dev": "webpack --config=webpack.config.js --env development",
     "build-prod": "webpack --config=webpack.config.js --env production",
-    "start": "webpack-dev-server --config=webpack.config.dev.js --open"
+    "start": "webpack-dev-server --config=webpack.config.js --env development --open"
   },
   "keywords": [
     "webpack"
@@ -16,7 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.1.1",
     "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
